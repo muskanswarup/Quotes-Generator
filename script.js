@@ -47,7 +47,7 @@ let generateQuote = ()=>{
     let randomQuote = quotes[randomQuoteIndex];
     toggleColor();
 
-    quoteContainer.innerHTML = `"${randomQuote.quote}"<br>- ${randomQuote.source}`;
+    quoteContainer.innerHTML = `"${randomQuote.quote}"<br>~ ${randomQuote.source}`;
 }
 
 let toggleColor = () => {
