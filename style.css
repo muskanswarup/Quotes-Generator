@@ -1,3 +1,17 @@
+
+  .amatic-sc-regular {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: 10rem;
+  }
+  
+  .amatic-sc-bold {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
 *{
     margin: 0;
     padding: 0;
@@ -5,8 +19,10 @@
 }
 
 body{
-    background: url(https://images.unsplash.com/photo-1717620378082-b2b48c2a8b93?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-size: cover;
+    background-color: rgb(189, 127, 255);
+    color: wheat;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 4rem;
 }
 
 .container{
@@ -14,14 +30,27 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 4rem 6rem;
 }
 
 h1{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 button{
-    width: 6vw;
-    height: 2vw;
-    font-size: 1.2rem;
+    width: 15vw;
+    min-height: 5vw;
+    font-size: 2rem;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+    background-color:rgb(241, 59, 120);
+    border: none;
+    color: #fff;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.5;
+
 }
